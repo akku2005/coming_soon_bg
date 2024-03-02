@@ -26,7 +26,7 @@ export default function Home() {
             playsInline 
             speed="0.5"
           >
-            <source src="homepage/bgg.mp4" type="video/mp4" />
+            <source src="homepage/bg.mp4" type="video/mp4" />
           </video>
           <div className="absolute inset-0">
             <Navbar />
