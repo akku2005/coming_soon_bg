@@ -1,5 +1,5 @@
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap')
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap")
 </style>
 import React from 'react';
 

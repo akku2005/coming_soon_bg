@@ -33,7 +33,7 @@ export default function Home() {
             <div className="sm:text-5xl my-36 mx-16 text-left text-white animate__animated animate__fadeIn">
               <div className="flex items-center mb-5">
                 <hr className="border-t-2 border-blue-500 w-16 my-2 mx-0" />
-                <p className="ml-4 text-lg">It's almost time .</p>
+                <p className="ml-4 text-lg">It s almost time .</p>
               </div>
               <div className="">
                 <p className="text-8xl font-extrabold">
