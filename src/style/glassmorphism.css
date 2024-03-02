@@ -1,0 +1,14 @@
+.glassmorphism {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px; /* Add padding to see the effect better */
+    transition: 'background 0.3s ease-in-out'; /* Optional: Add a transition for smoother effect */
+  }
+  
+  .glassmorphism:hover {
+    background: rgba(255, 255, 255, 0.25); /* Adjust background opacity on hover */
+  }
+  
