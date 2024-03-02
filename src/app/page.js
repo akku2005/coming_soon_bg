@@ -8,8 +8,7 @@ export default function Home() {
 
   useEffect(() => {
     if (videoRef.current) {
-      // Access the video element and set the playback rate
-      videoRef.current.playbackRate = 0.6; // Adjust the speed as needed
+      videoRef.current.playbackRate = 0.6;
     }
   }, []);
 
@@ -24,10 +23,10 @@ export default function Home() {
             muted
             ref={videoRef}
             className="absolute inset-0 object-cover h-3/6 xl:h-screen w-full"
-            playsInline // For mobile browsers
+            playsInline 
             speed="0.5"
           >
-            <source src="homepage/bg.mp4" type="video/mp4" />
+            <source src="homepage/bgg.mp4" type="video/mp4" />
           </video>
           <div className="absolute inset-0">
             <Navbar />
@@ -36,7 +35,6 @@ export default function Home() {
                 <hr className="border-t-2 border-blue-500 w-16 my-2 mx-0" />
                 <p className="ml-4 text-lg">It's almost time .</p>
               </div>
-
               <div className="">
                 <p className="text-8xl font-extrabold">
                   COMING <br />
