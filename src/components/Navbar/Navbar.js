@@ -10,7 +10,6 @@ const Navbar = () => {
       
       <div className="flex items-center">
       <span className="text-4xl" style={{ fontFamily: 'cursive, &quot;Dancing Script&quot;' }}>Akash </span>
-
       </div>
 
       <div className="flex items-center space-x-16">
