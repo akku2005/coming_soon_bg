@@ -14,41 +14,40 @@ export default function Home() {
 
   return (
     <>
-    <main className="h-screen">
-      <div className="relative">
-        <div className="bg-hero-section bg-no-repeat h-auto bg-center bg-cover relative">
-        <video
-  autoPlay
-  loop
-  muted
-  ref={videoRef}
-  className="absolute inset-0 object-cover h-3/6 xl:h-screen w-full"
-  playsInline
->
-  <source src="homepage/bg.mp4" type="video/mp4" />
-</video>
-
-          <div className="absolute inset-0">
-            <Navbar />
-            <div className="sm:text-5xl my-36 mx-16 text-left text-white animate__animated animate__fadeIn">
-              <div className="flex items-center mb-5">
-                <hr className="border-t-2 border-blue-500 w-16 my-2 mx-0" />
-                <p className="ml-4 text-lg">It&apos;s almost time .</p>
-              </div>
-              <div className="">
-                <p className="text-8xl font-extrabold">
-                  COMING <br />
-                </p>
-                <p>SOON</p>
+      <main className="h-screen">
+        <div className="relative">
+          <div className="bg-hero-section bg-no-repeat h-auto bg-center bg-cover relative">
+            <video
+              autoPlay
+              loop
+              muted
+              ref={videoRef}
+              className="absolute inset-0 object-cover h-3/6 xl:h-screen w-full"
+              playsInline
+            >
+              <source src="homepage/bg.mp4" type="video/mp4" />
+            </video>
+            <div className="absolute inset-0">
+              <Navbar />
+              <div className="sm:text-5xl my-36 mx-16 text-left text-white animate__animated animate__fadeIn">
+                <div className="flex items-center mb-5">
+                  <hr className="border-t-2 border-blue-500 w-16 my-2 mx-0" />
+                  <p className="ml-4 text-lg">It&apos;s almost time .</p>
+                </div>
+                <div className="">
+                  <p className="text-8xl font-extrabold">
+                    COMING <br />
+                  </p>
+                  <p>SOON</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </main>
-    <section>
-    <Hero/>
-    </section>
-    </> 
+      </main>
+      <section>
+        <Hero />
+      </section>
+    </>
   );
 }
